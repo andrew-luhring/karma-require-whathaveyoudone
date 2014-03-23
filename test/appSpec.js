@@ -16,6 +16,10 @@ define(['app', 'jquery', 'underscore'], function(App, $, _) {
             expect(_.size([1,2,3])).toEqual(3);
         });
 
+	it('will fail as expected', function(){
+		expect().fail("explicit failure");
+	    });
+
     });
 
 });

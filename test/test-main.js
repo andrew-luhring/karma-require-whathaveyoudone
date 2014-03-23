@@ -11,7 +11,9 @@ requirejs.config({
 
     paths: {
         'jquery': '../lib/jquery',
-        'underscore': '../lib/underscore'
+	    'underscore': '../lib/underscore',
+	    'app' : '../public/src/app'
+
     },
 
     shim: {
