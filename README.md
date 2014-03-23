@@ -1,4 +1,4 @@
-Testing Require.js code with Karma
+ALL OF THE FAIL.
 ==================================
 
 To get Karma to run with [Require.js] we need two files:
@@ -8,6 +8,31 @@ To get Karma to run with [Require.js] we need two files:
 
 Let's say our app has a directory structure which looks something like
 this:
+
+```bash
+$ tree
+.
+|-- public
+|   |-- index.html
+|   |-- src
+|       |-- app.js
+|       `-- main.js
+|-- config
+|   |-- karma.conf.js  
+|-- lib
+|   |-- jquery.js
+|   |-- require.js
+|   `-- underscore.js
+|-- src
+|   |-- app.js
+|   `-- main.js
+`-- test
+    |-- appSpec.js
+    `-- test-main.js
+```
+
+instead of :
+---------
 
 ```bash
 $ tree
